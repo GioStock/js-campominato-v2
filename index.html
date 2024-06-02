@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Campo Minato</title>
+</head>
+<body>
+
+  <div class="main-wrapper d-flex flex-column">
+    <header class="container">
+      <div class="row">
+
+        <div class="col">
+          <div class="logo d-flex fa-align-center py-3">
+            <img src="" alt="">
+            <span>Campo Minato</span>
+          </div>
+        </div>
+        
+        <div class="col d-flex fa-align-center py-3">
+          <label for="level">Difficoltà: </label>
+          <select class="form-select mx-3" name="level" id="level">
+            <option value="0">Easy</option>
+            <option value="1">Medium</option>
+            <option value="2">Hard</option>
+          </select>
+          <button type="button" id="play" class="btn btn-success">Play</button>
+        </div>
+
+      </div>
+    </header>
+
+
+    <main class="d-flex justify-content-center align-items-center flex-column">
+
+      <div class="game-wrapper"></div>
+      <h1 class="endMessage"></h1>
+
+    </main>
+
+    
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
