@@ -9,3 +9,7 @@ Ho provato a replicare il gioco Campo Minato, concentrandomi sul funzionamento d
 - **Menu Contestuale:** Un menu a tendina che appare in hover sui messaggi inviati, permettendo di eliminare il messaggio specifico.
 
 ### Galleria
+#### Indicatore Mine
+![alt text](https://i.imgur.com/2lwvNak.png)
+#### Sconfitta
+![alt text](https://i.imgur.com/ZlClKEf.png)
