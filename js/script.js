@@ -30,6 +30,7 @@ function generaGriglia(numeroCelle){
 
   const griglia = document.createElement('div');
   griglia.className = 'grid';
+  
 
   for(let i = 1; i <= numeroCelle; i ++){
     const cella = generaCella(numeroCelle, i);

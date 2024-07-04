@@ -19,7 +19,7 @@
 }
 
 main{
-  background-color: aquamarine;
+  background-color: rgb(77, 125, 32);
   flex-grow: 1;
 }
 
@@ -28,7 +28,7 @@ main{
   flex-wrap: wrap;
   width: 500px;
   height: 500px;
-  background-color: rgb(125, 191, 230);
+  background-color: rgb(157, 191, 209);
 }
 
 .cell{
@@ -59,6 +59,7 @@ main{
 
 .cell.bomb{
   background-color: brown;
+  
   color: white;
 }
 
